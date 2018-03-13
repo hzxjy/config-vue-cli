@@ -1,0 +1,29 @@
+/*后面的依赖，需引用，否则不引用*/
+
+@import "./mixins.scss";
+@import "./variables.scss";
+@import "./reset.scss";
+@import "./iconfont.scss";
+@import "./widget/btn.scss";
+
+body, html ,.container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.container {  
+  line-height: 1;
+  font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  background: $color-background;
+  color: $color-text;
+  overflow: hidden;
+}
+
+.main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
